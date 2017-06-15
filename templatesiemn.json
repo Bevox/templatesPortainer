@@ -13,7 +13,7 @@
       },
       {
         "name": "WORDPRESS_DB_NAME",
-        "label": "MySQL database nale"
+        "label": "MySQL database name"
       },
       {
         "name": "WORDPRESS_DB_USER",
@@ -27,7 +27,7 @@
     "ports": [
       "80/tcp"
     ],
-    "volumes": ["/datas", "/var/www/html"]
+    "volumes": ["/var/www/html"]
   },
     {
     "title": "Registry",
