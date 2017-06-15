@@ -5,7 +5,7 @@
     "categories": ["webserver"],
     "platform": "linux",
     "logo": "./css/logo_iemn_blanc.png",
-    "image": "wpiemn:latest",
+    "image": "bevox/wordpressiemn:latest",
     "ports": [
       "80/tcp"
     ],
