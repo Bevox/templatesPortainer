@@ -4,7 +4,7 @@
     "description": "Wordpress custom image",
     "categories": ["webserver"],
     "platform": "linux",
-    "logo": "./css/logo_iemn_blanc.png",
+    "logo": "http://www.iemn.fr/wp-content/uploads/2016/04/logo_IEMN.png",
     "image": "bevox/wordpressiemn:latest",
     "ports": [
       "80/tcp"
