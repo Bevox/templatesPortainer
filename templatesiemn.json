@@ -8,13 +8,15 @@
       "80/tcp"
     ],
     "env": [
-        {
+      {
         "name": "WORDPRESS_DB_HOST",
         "label": "MySQL database host"
-      },{
+      },
+      {
         "name": "WORDPRESS_DB_NAME",
         "label": "MySQL database nale"
-      },{
+      },
+      {
         "name": "WORDPRESS_DB_USER",
         "label": "MySQL database user"
       },
