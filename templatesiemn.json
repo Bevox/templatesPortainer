@@ -1,5 +1,17 @@
 [
   {
+    "title": "Wordpress IEMN",
+    "description": "Wordpress custom image",
+    "categories": ["webserver"],
+    "platform": "linux",
+    "logo": "./css/logo_iemn_blanc.png",
+    "image": "wpiemn:latest",
+    "ports": [
+      "80/tcp"
+    ],
+    "volumes": ["/datas", "/var/www/html"]
+  },
+  {
     "title": "Registry",
     "description": "Docker image registry",
     "categories": ["docker"],
