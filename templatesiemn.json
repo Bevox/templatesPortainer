@@ -1,6 +1,6 @@
     "title": "Wordpress IEMN",
     "description": "Wordpress custom image",
-    "categories": ["webserver"],
+    "categories": ["cms"],
     "platform": "linux",
     "logo": "http://www.iemn.fr/wp-content/uploads/2016/04/logo_IEMN.png",
     "image": "bevox/wordpressiemn:latest",
