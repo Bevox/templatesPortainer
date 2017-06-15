@@ -1,13 +1,27 @@
-[
-  {
     "title": "Wordpress IEMN",
     "description": "Wordpress custom image",
-    "categories": ["CMS"],
+    "categories": ["webserver"],
     "platform": "linux",
     "logo": "http://www.iemn.fr/wp-content/uploads/2016/04/logo_IEMN.png",
     "image": "bevox/wordpressiemn:latest",
     "ports": [
       "80/tcp"
+    ],
+    "env": [
+      {
+        "name": "WORDPRESS_DB_HOST",
+        "label": "MySQL database host",
+      },
+        "name": "WORDPRESS_DB_NAME",
+        "label": "MySQL database nale",
+      },
+        "name": "WORDPRESS_DB_USER",
+        "label": "MySQL database user",
+      },
+      {
+        "name": "WORDPRESS_DB_PASSWORD",
+        "label": "Database password"
+      }
     ],
     "volumes": ["/datas", "/var/www/html"]
   },
