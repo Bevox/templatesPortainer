@@ -27,7 +27,8 @@
     "ports": [
       "80/tcp"
     ],
-    "volumes": ["/var/www/html"]
+    "volumes": ["/var/www/html"],
+    "command": "sh /service.sh"
   },
     {
     "title": "Registry",
